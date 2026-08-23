@@ -14,3 +14,8 @@ dependencies = [
     "polars>=1.43.2",
     "seaborn>=0.13.2",
 ]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]

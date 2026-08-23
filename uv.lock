@@ -467,6 +467,11 @@ dependencies = [
     { name = "seaborn" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "ipykernel" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "geodatasets", specifier = ">=2026.5.1" },
@@ -478,6 +483,9 @@ requires-dist = [
     { name = "polars", specifier = ">=1.43.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ipykernel", specifier = ">=7.3.0" }]
 
 [[package]]
 name = "matplotlib"
