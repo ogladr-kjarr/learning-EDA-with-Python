@@ -13,6 +13,7 @@ dependencies = [
     "pip>=26.2.1",
     "polars>=1.43.2",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
 ]
 
 [dependency-groups]
